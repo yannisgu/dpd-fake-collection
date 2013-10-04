@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '0.10'
+branches:
+  only:
+  - master
+script: ./node_modules/.bin/grunt publish
+env:
+  global:
+    secure: uRzi1LwrMqZF7zLkfiduf2E9ht3wyX+2eBB77NEszuKs5eUHLcoetE4aXxHucrEIHcGKAqXJz8IJitRvFek2FN/yNkiSNJ2S2zCtla7EfKGTjHe7HfyD4muh7KEA8DQyxRMTNsNbYeOIbvMSHOJXyjZ+NYklSOgxXeADjgCGI5E=
